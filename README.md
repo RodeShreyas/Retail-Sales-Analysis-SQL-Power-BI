@@ -3,18 +3,25 @@
 # 📊 Retail Sales Analysis (SQL + Power BI)
 
 ## 📌 Project Overview
-This project focuses on analyzing retail sales data using SQL and visualizing key business insights using Power BI.  
-It helps understand customer behavior, product performance, and sales trends.
+This project focuses on analyzing retail sales data using SQL and visualizing key business insights using Power BI. Data Cleaning and preprocessing were performed using Excel. It helps understand customer behavior, product performance, and sales trends.
 
 ## 🎯 Objectives
 - Analyze total revenue and order patterns
 - Identify top-performing products and categories
+- Clean and prepare raw data for analysis
 - Understand customer purchasing behavior
 - Visualize insights using an interactive dashboard
 
 ## 🛠 Tools & Technologies Used
+- Excel → Data Cleaning & Preprocessing
 - SQL (MySQL) → Data querying and analysis  
 - Power BI → Dashboard creation and visualization
+
+## Data Cleaning (Excel)
+Before analysis, the dataset was cleaned using Excel:
+- Removed duplicate records
+- Handled missing values
+- Standardized column formats
 
 ## Dataset Description
 The dataset consists of three tables:
@@ -52,19 +59,23 @@ The dataset consists of three tables:
 ### 🔹 Basic Queries
 - Total Revenue
 - Total Orders
-- Sales by Season
+- Avg Purchase Value
 
 ### 🔹 Intermediate Queries
+- Top Products By Orders
+- Sales by Category
 - Orders by Size
-- Revenue by Category (JOIN + GROUP BY)
+- Sales By Season
+- Orders By Location
 - Orders by Payment Method
+- Discount Analysis
+- Average Purchase By Subscription
 - Average Rating by Product
-- Orders with High Frequency
 
 ### 🔹 Advanced Queries
-- Ranking Top Products by Sales (RANK function)
+- Products with >50 Orders
+- Ranking Top Products by Revenue (RANK function)
 - Above Average Purchase Analysis (Subquery)
-- Customer Segmentation Analysis
 
 ## 📊 Key Insights
 - 🔹 Clothing category generates the highest revenue  
