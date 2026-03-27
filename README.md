@@ -77,6 +77,17 @@ The dataset consists of three tables:
 - Ranking Top Products by Revenue (RANK function)
 - Above Average Purchase Analysis (Subquery)
 
+## Database Setup
+A relational database was created using SQL to organize the data into structured tables.
+
+- Created three tables: Customers, Products, and Orders  
+- Defined primary keys for each table  
+- Established relationships using foreign keys:
+  - customers.customer_id → orders.customer_id  
+  - products.product_id → orders.product_id  
+
+This structure ensures data integrity and enables efficient analysis using joins.
+
 ## 📊 Key Insights
 - 🔹 Clothing category generates the highest revenue  
 - 🔹 Medium (M) size products have the highest number of orders  
